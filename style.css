@@ -1,0 +1,346 @@
+*{
+  box-sizing: border-box;
+  font-family: fantasy;
+  font-weight: lighter;
+  color:wheat;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+/*.main-header {
+	background-image: url(headerBackground.jpg);*/
+	/* This will show the whole image and not crop anything	*/
+/*	background-size: cover;
+
+}*/
+
+#name {
+	text-align: center;
+	font-size: 6em;
+	color: wheat;
+}
+
+#mainHeader {
+	background-image: url(headerBackground.jpg);
+	background-size: cover;
+	padding-left: -100px;
+}
+
+p {
+
+}
+
+nav a {
+	text-decoration: none;
+	color: wheat;
+	padding-top: 20px;
+	font-size: 1.5em;
+}
+
+#navi {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: darkcyan;
+}
+
+.man {
+
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 900px;
+	max-width: 1280px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+#merch {
+	background-color: darkcyan;
+	color: wheat;
+	height: 60px;
+	padding-top: 10px;
+	margin-top: 0px;
+}
+
+.product {
+	background-color: darkcyan;
+	width: 55%;
+	margin: auto;
+}
+
+.productName {
+	font-size: 2em;
+	padding-top: 50px;
+}
+
+#cart {
+/*	background-color: darkcyan;*/
+	color: wheat;
+	/*height: 60px;
+	padding-top: 10px;*/
+}
+
+.fightertitle {
+	display: inline;
+	padding-top: -20px;
+}
+
+.somtin {
+	display: flex;
+	justify-content: center;
+/*	background-color: pink;*/
+	height: 60px;
+}
+
+.price {
+	margin: -2px;
+	color: wheat;
+}
+
+.btnProfile {
+	font-size: 1.1em;
+	color: pink;
+	border: 2px solid black;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btnProfile:hover {
+	background-color: pink;
+	color: black;
+}
+
+.addToCart {
+	margin-top: 16px;
+	border: 2px solid;
+
+	background-color: black;
+	color: pink;
+	font-size: 1.1em;
+}
+
+.addToCart:hover {
+	background-color: pink;
+	color: black;
+}
+
+.fighters {
+	/*display: flex;
+	justify-content: center;*/
+
+}
+
+.contro {
+	text-align: center;
+	color: wheat;
+}
+
+#wrapper {
+	background-color: black;
+
+}
+
+#domi {
+	text-align: center;
+	color: wheat;
+}
+
+main p {
+	color: #fceaa7;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	font-size: 1.3em;
+/*	background-color: pink;*/
+}
+
+#b1 {
+	margin: 37px 0px 30px 0px;
+}
+
+#punch {
+	display: block;
+	width: 98%;
+	margin: auto;
+	padding: 30px 0px 30px 0px;
+}
+
+footer {
+/*	background-color: black;*/
+	background-color: darkcyan;
+	height: 150px;
+/*	padding-block: 50px;*/
+/*	min-width: 450px;*/
+/*	color: wheat;*/
+}
+
+footer h1 {
+	color: grey;
+/*	display: inline;*/
+/*	background-color: cyan;*/
+}
+
+footer img {
+	height: 40px;
+}
+
+#foothead {
+/*	display: inline-block;*/
+}
+
+.contos {
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-around;
+/*	background-color: orchid;*/
+}
+
+#foot {
+/*	display: inline-block;*/
+/*	margin: auto;*/
+/*	padding: 10px;*/
+/*	margin-left: 1500px;*/
+	padding-top: 42px;
+
+}
+
+.footimg {
+/*	margin: auto;*/
+/*	display: block;*/
+/*	padding:27px;*/
+	padding: 27px;
+/*	background-color: wheat;*/
+}
+
+
+.resul {
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+h2 {
+	color: wheat;
+}
+
+h3 {
+	color: wheat;
+}
+
+.fname {
+	color: wheat;
+}
+
+.wrr {
+	display: flex;
+	justify-content: center;
+/*	background-color: darkcyan;*/
+	height: 60px;
+}
+
+.wrrh {
+	margin-top: 15px;
+}
+
+
+
+#ppv {
+	color: pink;
+	border: 2px solid black;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+#ppv:hover {
+	background-color: pink;
+  color: black;
+
+}
+
+#tab {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	font-size: 1.2em;
+	color: black;
+/*	font-weight: lighter;*/
+}
+
+/* Change font color of table headers */
+th {
+  color: darkcyan; /* Change to your preferred color */
+}
+
+/* Change font color of table data cells */
+td {
+  color: #f51448; /* Change to your preferred color */
+}
+
+/*#tabll {
+	font-family: "Times New Roman";
+}*/
+
+.navii {
+	padding: 20px 20px 20px 20px;
+}
+
+.navii:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#footerUfc {
+	font-size: 3em;
+	color: wheat;
+}
+
+/* row works along with item, price & quantity */
+
+.cart-row {
+	display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+.cart-price {
+  width: 20%;
+}
+.cart-quantity {
+  width: 35%;
+}
+
+
+
+
+
+.cart-column {
+	/*display: flex;
+	justify-content: center;*/
+}
+
+
+
+
+
+
+
+
+
+/*header h1 {
+	color: white;
+}*/
+
+/*nav a {
+	text-decoration: none;
+}*/
